@@ -1,0 +1,322 @@
+/************************************************start Main style*********************************************/
+ul, li {
+    list-style: none;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+/************************************************start style NavBar*********************************************/
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #394c65;
+}
+.bg-light {
+    background-color: #394c65!important;
+    text-transform: uppercase;
+    
+}
+.navbar-light .navbar-brand img{
+    height: 50px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: gainsboro;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: gainsboro;
+    background-color: #bf1818;
+    border-radius: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+       color: gainsboro;
+    background-color: #bf1818;
+    border-radius: 10px; 
+}
+/************************************************start style SLIDER*********************************************/
+.carousel-inner img{
+    height: 600px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 75%;
+    bottom: 100px;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align:start;
+    width: 22%;
+    color: #112c4a;
+    font-weight: bolder;
+    margin-left: 3%;
+}
+.carousel-caption h5{
+    font-weight: bolder;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 65%;
+    bottom: 50px;
+    margin-right: 10%;
+    margin-left: 17%;
+}
+.carousel-indicators li{
+    background-color: #007bff;
+    height: 10px;
+    opacity:1;
+}
+.carousel-indicators .active{
+   background-color: #112c4a; 
+}
+/************************************************start style FORM USER*********************************************/
+.formUser{
+   margin-top: -50px;
+    color: gainsboro;
+}
+.formUser .row{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.col-sm-8 , .col-sm-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.formUser .fristside{
+    background-color: #081f3e;
+    height: 200px;
+}
+.formUser .secondside{
+    background-color:#0c72fe;
+    height: 200px;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%; 
+}
+.formUser .secondside ul li {
+    margin-top: 5%;
+    opacity: .9;
+}
+.formUser form{
+    padding-left: 20%;
+    padding-right: 20%; 
+    text-align: center;
+    padding-top: 3%;
+}
+.formUser form select{
+    border-style: none;
+    background-color:  #112c4a;
+    border-bottom: 1px solid black;
+    color: gainsboro;
+    opacity: .7;
+    margin-top: 3%;
+}
+.formUser form button{
+    margin-top: 2%;
+    width: 40%;
+    background-color: #0c72fe;
+}
+/************************************************start style ABOUT*********************************************/
+.about{
+    margin-top: 5%;
+}
+.about p{
+    display: block;
+    max-height:200px;
+    overflow: hidden;
+}
+.about button{
+    width: 40%;
+    margin-bottom: 2%;
+    background-color: #0c72fe;
+}
+/************************************************start style SERVICES*********************************************/
+.services{
+    margin-top: 5%;
+}
+.services , .services .card{
+    background-color: gainsboro;
+    border-style: none;
+}
+.services h1{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.services img {
+    margin-bottom: 3%;
+}
+/************************************************start style LATEST NEWS*********************************************/
+.LatsetNews,
+.ourTeam {
+    margin-top: 5%;
+}
+.LatsetNews h1,
+.ourTeam h1{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.LatsetNews .card .card-title{
+    color: #0c72fe;
+}
+.LatsetNews .card .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: #ffffff;
+    background-color:#0c72fe;
+    padding: 3%; 
+}
+/************************************************start style OUR TEAM*********************************************/
+.box1 img,.box1:after,.box1:before{
+    width:100%;
+    transition:all .3s ease 0s;
+}
+.box1 .icon, .icon li a{
+    text-align:center
+}
+.box1:after,.box1:before{
+    content:""
+}
+.box1,.box11,.box12,.box13,.box14,.box16,.box17,.box18,.box2,.box20,.box21,.box3,.box4,.box5,.box5 .icon li a,.box6,.box7,.box8{
+    overflow:hidden
+}
+.box1 .title,.box10 .title,.box4 .title,.box7 .title{
+    letter-spacing:1px
+}
+.box3 .post,.box4 .post,.box5 .post,.box7 .post{
+    font-style:italic
+}
+.box1 .icon,.box1 .title{
+    margin:0;
+    position:absolute
+}
+.box1{
+    box-shadow:0 0 3px rgba(0,0,0,.3);
+    position:relative
+}
+.box1:after,.box1:before{
+    height:50%;
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    transform-origin:100% 0;
+    transform:rotateZ(90deg)
+}
+.box1:after{
+    top:auto;
+    bottom:0;
+    transform-origin:0 100%
+}
+.box1:hover:after,.box1:hover:before{
+    transform:rotateZ(0)
+}
+.box1 img{
+    height:300px;
+    transform:scale(1) rotate(0)
+}
+.box1:hover img{
+    filter:sepia(80%);
+    transform:scale(1.3) rotate(10deg)
+}
+.box1 .title{
+    font-size:19px;
+    font-weight:600;
+    color:#fff;
+    text-transform:uppercase;
+    text-shadow:0 0 1px #004cbf;
+    bottom:10px;
+    left:10px;
+    opacity:0;
+    z-index:2;
+    transform:scale(0);
+    transition:all .5s ease .2s
+}
+.box1:hover .title{
+    opacity:1;transform:scale(1)
+}
+.box1 .icon{
+    padding:7px 5px;
+    list-style:none;
+    background:#004cbf;
+    border-radius:0 0 0 10px;
+    top:-100%;
+    right:0;
+    z-index:2;
+    transition:all .3s ease .2s
+}
+.box1:hover .icon{
+    top:0
+}
+.box1 .icon li{
+    display:block;
+    margin:10px 0
+}
+.box1 .icon li a{
+    display:block;
+    width:35px;
+    height:35px;
+    line-height:35px;
+    border-radius:10px;
+    font-size:18px;
+    color:#fff;
+    transition:all .3s ease 0s
+}
+.box2 .icon li a,.box3 .icon a:hover,.box4 .icon li a:hover,.box5 .icon li a,.box6 .icon li a{
+    border-radius:50%
+}
+.box1 .icon li a:hover{
+    color:#fff;
+    box-shadow:0 0 10px #000 inset,0 0 0 3px #fff
+}
+@media only screen and (max-width:990px){
+    .box1{margin-bottom:30px}
+}
+/************************************************start style CONTACT TO CALL*********************************************/
+.Call{
+    background-color: #bf1818;
+    margin-top: 5%;
+}
+.Call p{
+    font-weight: bolder;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 20px;
+    color: #ffffff;
+}
+.Call img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/************************************************start style FOOTER*********************************************/
+footer{
+background-color: #081f3e;
+    color: #ffffff;
+    padding-top: 4%; 
+}
+footer input.form-control ,
+footer textarea.form-control{
+   background-color: #081f3e;
+    margin-top: 4%;
+}
+footer button{
+   margin-top: 4%;
+    float: right;
+}
+footer h3{
+    color: #007bff;
+}
+footer #one{
+    display: block;
+    margin-top: 8%;
+}
+svg.svg-inline--fa.fa-w-14 {
+    font-size: 30px;
+}
+svg.svg-inline--fa.fa-w-14:hover {
+    color:#007bff;
+    cursor: pointer;
+}
+footer hr{
+    background-color: #ffffff;
+}
